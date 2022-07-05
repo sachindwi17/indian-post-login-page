@@ -1,0 +1,167 @@
+@media screen and (orientation:portrait){
+    *{
+        margin: 0px;
+        font-family: 'Segoe UI';
+        font-size: 13px;
+    }
+    .container{
+        width: 100%;
+    }
+    .firstbox{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid yellow;
+    }
+    .logo1{
+        height: 75px;
+        align-items: center;
+    }
+    #logo1{
+        height: 75px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    .logo2{
+        height: 50px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    .borderline{
+        border-top: 2px solid red;
+        width: 100%;
+    }
+    .second-box{
+        height: auto;
+        margin: 12px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .signinh3{
+        font-weight: normal;
+        font-size: 24px;
+        color: rgb(202, 35, 35);
+    }
+    .h3p{
+        font-size: 16px;
+        margin-left: -138px;
+    }
+    .signin{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    li{
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    ul{
+        font-size: 13px;
+    }
+    h4{
+        font-size: 14px;
+        margin-left: -19px;
+    }
+    .loginpage{
+        border: 1px solid rgb(165, 159, 159);
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        background-color: rgb(247, 243, 243);
+    }
+    .heading{
+        font-size: 16px;
+        color: white;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    .firstline{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(183, 35, 35);
+        display: flex;
+        color: white;
+    }
+    .bi-person::before{
+        line-height: 2!important;
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+    .star{
+        color: #ea0505;  
+     }
+     input{
+        width: 210px;
+        height: 22px;
+     }
+     .username{
+        margin: 10px;
+     }
+     .btn {
+        height: 32px;
+        width: 64px;
+        background-color: rgb(183, 35, 35);
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    h5{
+        font-size: 14px;
+        margin: 10px;
+    }
+    div.account{
+        height: 30px;
+        background-color: rgb(98, 95, 95);
+       color: white;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+    }
+    .creat{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        color: rgb(0, 149, 255);
+    }
+    .footerlast{
+        height: 60px;
+        /* border: 2px solid black; */
+        margin-top: 78px;
+        color: white;
+    }
+    .ulfooter{
+        display: flex;
+        margin-left: 40px;
+    }
+    .lifooter{
+        margin: 8px;
+        margin-top: 2px;
+    }
+    .first-footer{
+        height: 30px;
+        background-color: rgb(98, 95, 95);
+    }
+    a{
+        color:white
+    }
+    .second-footer{
+        height: 30px;
+        background-color: rgb(183, 35, 35);
+        color: white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
